@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Merriweather&family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital@1&display=swap');
+.BackgroundColor {
+    background-color: rgba(19, 19, 212, 0.853);
+    font-family: 'Gabarito', cursive;
+}
+
+.right-image {
+    float: center;
+    margin-left: 10px;
+    /* Optional spacing between the image and surrounding content */
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Reverse the order of elements to put the image on the right */
+    align-items: center;
+    /* Optional, align items vertically */
+}
+
+img {
+    max-width: 880%;
+    /* Ensure the image does not exceed its container's width */
+    margin-left: 880px;
+    /* Optional spacing between the image and content */
+}
+
+.profile-pic {
+    width: 400px;
+    /* Set the desired width */
+    height: 400px;
+    /* Let the height adjust proportionally */
+}
+
+.button-container {
+    display: inline-block;
+    /* Make the container inline-block */
+}
+
+
+/* Style for the buttons (optional) */
+
+.btn {
+    margin-right: 10px;
+    /* Add margin to create space between buttons */
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+/* Style the headings as inline elements and add spacing */
+
+.word-container {
+    text-align: center;
+}
+
+
+/* Style each word with padding to make them the same length */
+
+.word {
+    display: inline-block;
+    padding: 0 50px;
+    font-size: 50px;
+    display: block;
+    /* Adjust the padding as needed */
+}
+
+.image {
+    display: block;
+    margin-bottom: 10px;
+    /* Adjust margin as needed */
+}
+
+.container {
+    text-align: center;
+}
+
+
+/* Style the image */
+
+.image {
+    display: block;
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+
+/* Style the text */
+
+.text {
+    display: block;
+}
+
+.submit-button {
+    border-radius: 10px;
+    height: 35px;
+    padding: 10px 18px 28px 18px;
+    border: 3px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif');
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-size: cover;
+    /* Scale the image to cover the entire element */
+}
+
+.white-text {
+    color: white;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Create a 2-column grid */
+    grid-template-rows: repeat(3, 1fr);
+    /* Create a 3-row grid */
+    gap: 10px;
+    /* Add some spacing between the images */
+    max-width: 500px;
+    /* Adjust this width as needed */
+}
+
+
+/* Optionally, you can style the images themselves */
+
+.image-container img {
+    max-width: 100%;
+    /* Ensure the images don't exceed their container */
+    height: auto;
+    /* Maintain the aspect ratio of the images */
+}
+
+.vertical-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-form input,
+.vertical-form button {
+    margin: 100px 0;
+}
+
+.vertical-form button {
+    padding: 100px 200px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.vertical-form button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-table {
+    background-color: #fff;
+    max-width: 600px;
+    /* Increase the max-width to your desired size */
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.profile-pic {
+    width: 300px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-left: 1000px;
+    /* Add margin to create space between text and image */
+    float: upper center;
+    /* Float the image to the right */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.profile-pic {
+    width: 300px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-left: 20px;
+    /* Add margin to create space between text and image */
+}
